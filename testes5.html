@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>TROCA DE IMAGENS</h1>
+        <img id="imagem" onclick="troca()" src="inicial.jpg" width="100%">
+        <p>CLIQUE PARA TROCAR A IMAGEM</p>
+        <script>
+            function troca(){
+                var figura = document.getElementById('imagem');
+                if(figura.src.match("inicial")){
+                    figura.src = "final.jpg";
+                }else{
+                    figura.src="inicial.jpg";
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <p>X=10 e Y=20 Z=X+Y</p>
-        <p id="identificador"></p>
-        <p>Mudando o valor de X</p>
-        <p id="demo2"></p>
+    <head>
+        <style>
+            p{
+                font-family : Times New Roman;
+                font-size : 16px;
+                color : red;
+                text-align : center;}
+        </style>
         <script>
-        var x = 10; 
-        var y = 20; 
-        var z = x + y; 
-            document.getElementById("identificador").innerHTML = z; 
-            x="Texto";
-            document.getElementById("identificador2").innerHTML = x;
+            function funcao(){
+                document.getElementById("texto").innerHTML = "Conteúdo depois do clique!";
+            }
         </script>
+        <title>TROCA DE TEXTO</title>
+    </head>
+    <body>
+        <P id="texto">Conteúdo antes do clique!</P>
+        <p><button type="button" onclick="funcao()">Clique!</button></p>
     </body>
 </html>
