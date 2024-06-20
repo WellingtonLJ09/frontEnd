@@ -1,0 +1,26 @@
+<!--ATV1
+Após a análise do código escreva um trecho de código em JavaScript (sem utilizar jQuery ou qualquer outro framework), que realize o seguintes ações:
+1 - Troque a imagem "foto.jpg" por "paisagem.jpg".
+2 - Troque o conteúdo do link ("site") pela url do link ("http://www.exemplo.com/).
+3 - Deixe a cor do texto do parágrafo vermelha.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+  
+    </head>
+
+    <body>
+        <div id="main">
+            <p id="paragrafo">Acesse o <a id="link1" href="http://www.exemplo.com/">site</a></p> 
+            <p id="p2"><img id="imagem" src="foto.jpg" alt="" /></p>
+            </div>
+        <script>
+            document.getElementById('link1').innerHTML = "http://www.exemplo.com/";
+            document.getElementById('paragrafo').style.color='red'; 
+            document.getElementById('imagem').src='paisagem.jpg';
+
+        </script>
+        
+    </body>
+</html>
