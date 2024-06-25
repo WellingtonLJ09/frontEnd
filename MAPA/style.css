@@ -7,11 +7,21 @@ body{
 h1.thick {
     font-weight: bold;
     color: aliceblue;
+    text-shadow:  
+    -1px -1px 0 black,  
+    1px -1px 0 black,
+    -1px  1px 0 black,
+    1px  1px 0 black;
 }
 
 h2.thick {
     font-weight: bold;
     color: aliceblue;
+    text-shadow:  
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+    1px  1px 0 black;
 }
 
 label.thick {
@@ -19,6 +29,11 @@ label.thick {
     color: aliceblue;
     border-radius: 5px;
     padding: 20px;
+    text-shadow:  
+    -1px -1px 0 black,  
+    1px -1px 0 black,
+    -1px  1px 0 black,
+    1px  1px 0 black;
     
 }
 
