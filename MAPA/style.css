@@ -1,7 +1,7 @@
 body{
     background-image: url(fotofundo.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 }
 
 h1.thick {
@@ -23,3 +23,13 @@ p.thick {
     font-weight: bold;
     color: aliceblue;
 }
+
+button{
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
